@@ -42,6 +42,7 @@ def send_email_bad_request():
     <body>
         <h1>Error 400 - Bad Request</h1>
         <p>To send an email to yourself, add <em>/send-email/yourname@example.com</em> to the URL bar</p>
+        <a href = "/">Home</a>
     </body>
     </html>
     """
@@ -84,3 +85,4 @@ def about():
 if __name__ == '__main__':
 
     app.run(host='0.0.0.0', port=5555)
+
